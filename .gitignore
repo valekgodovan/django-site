@@ -1,4 +1,4 @@
 /venv/
 .idea/
 coolsite/db.sqlite3
-__pycache__
+*/__pycache__
