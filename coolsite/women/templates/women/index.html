@@ -1,0 +1,15 @@
+{% extends 'women/base.html' %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+
+<ul>
+    {% for post in posts %}
+    <li>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+        <hr>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
